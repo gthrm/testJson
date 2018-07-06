@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    $.getJSON("data.json", function (data) {
-    // data = data['feed']['entry'];    
+    $.getJSON("http://sknt.ru/job/frontend/data.json", function (data) {
+    data = data['tarifs'];    
     console.log(data);
     // showGoods(data);
     });
