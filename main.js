@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $.getJSON("http://sknt.ru/job/frontend/data.json", function (data) {
+    $.getJSON("data.json", function (data) {
     data = data['tarifs'];    
     console.log(data);
     // showGoods(data);
